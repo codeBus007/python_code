@@ -53,7 +53,8 @@ class SinglyLinkedList(object):
 		pass
 
 	# 删除节点
-	def remove(self,)
+	def remove(self, idx):
+		
 
 
 
