@@ -1,0 +1,32 @@
+一、列表初始化
+	初始化 5个0的列表
+	比较：
+		lists = [0, 0, 0, 0, 0]
+		lists = [0] * 5
+
+二、随机整数生成
+	from random inport randint
+	randint(0, 9)	# 生成 [0, 9]之间的随机整数
+
+
+三、type命令查看变量类型
+	a = []
+	type(a)
+
+四、字符串左右空格删除
+	‘ i love python    ’.strip()
+
+
+五、range()函数 ：
+	range(from, to, step): [from, to) 
+	for i in range(0, 10) step 默认为1
+	for i in range(0, 10, 2) step 设为2
+	for i in range(10, 0, -1) step 设为-1
+
+六、注释
+	单行：
+		# code comment
+	多行：
+		'''
+			code comment
+		'''
